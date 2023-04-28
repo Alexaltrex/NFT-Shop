@@ -1,0 +1,89 @@
+@import "../../../assets/style/app";
+
+.auctionModal {
+  .wrapper {
+    position: relative;
+    @include centerRow;
+    width: 100vw;
+    height: 100vh;
+
+    .loading {
+      @include centerRow;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 999;
+      background: rgba(0,0,0,0.75);
+    }
+
+    .content {
+      padding: 32px;
+      border-radius: 16px;
+      background: #FFF;
+      display: flex;
+      //align-items: center;
+      justify-content: center;
+
+      &:focus-visible {
+        outline: none;
+      }
+
+      .img {
+        width: 500px;
+        height: 500px;
+      }
+
+      .info {
+        margin-left: 16px;
+
+        .attributesLabel {
+          margin-top: 8px;
+        }
+
+        .attributes {
+          margin-top: 4px;
+
+          p {
+            span:nth-child(1) {
+              font-style: italic;
+              color: grey;
+            }
+          }
+
+        }
+
+        .auctionInfo {
+          margin-top: 16px;
+
+          p {
+            span {
+              font-style: italic;
+              color: grey;
+            }
+          }
+        }
+
+        .bnt {
+          margin-top: 16px;
+          text-transform: none;
+
+          & > p > span {
+            color: orange;
+            font-weight: bold;
+          }
+        }
+
+
+
+      }
+    }
+
+    .closeBtn {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}

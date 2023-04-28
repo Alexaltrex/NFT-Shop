@@ -1,0 +1,32 @@
+@import "../../assets/style/app";
+
+.auction {
+  position: relative;
+  padding: 16px;
+  box-sizing: border-box;
+  min-height: calc(100vh - 60px);
+
+  .progress {
+    @include progress;
+  }
+
+  .empty {
+    @include absoluteCenter;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 124px;
+    text-align: center;
+    opacity: 0.1;
+  }
+
+  .cards {
+    margin-top: 16px;
+
+    .inner {
+      margin: -4px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+}

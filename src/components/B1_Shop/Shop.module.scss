@@ -1,0 +1,21 @@
+@import "../../assets/style/app";
+
+.shop {
+  position: relative;
+  padding: 16px;
+
+  .progress {
+    @include progress;
+  }
+
+  .cards {
+    margin-top: 16px;
+
+    .inner {
+      margin: -4px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+}

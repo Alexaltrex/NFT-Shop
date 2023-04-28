@@ -1,0 +1,49 @@
+@import "../../../assets/style/app";
+
+.shopTokenCard {
+  position: relative;
+  cursor: pointer;
+  margin: 4px;
+  height: 200px;
+  width: 200px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #CCC;
+
+  img {
+    height: 200px;
+    width: 200px;
+    transition: 0.3s;
+  }
+
+  .id {
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 24px;
+    //transition: 0.3s;
+    //opacity: 0;
+    background: rgba(0,0,0,0.5);
+  }
+
+  .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    transition: 0.3s;
+  }
+
+  &:hover {
+    img {
+      transform: scale(1.1);
+    }
+
+    .icon, .id {
+      opacity: 1;
+    }
+  }
+}
