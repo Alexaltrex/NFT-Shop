@@ -7,7 +7,7 @@ The application implements the functionality:
 * Accounts can buy tokens from auction;
 * Admin (smart-contract deployer) can change price for buy from shop or sell to shop, withdraw ether from shop balance; 
 * Event logs for: buy from shop, sell to shop, add to auction, remove from auction, buy from auction, change buy or sell price.
-## Development:
+#### Development:
 * Demo: https://alexaltrex.github.io/NFT-Shop
 * Front-end: React
 * Smart-contract: Solidity
