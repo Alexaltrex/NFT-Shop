@@ -9,6 +9,7 @@ The application implements the functionality:
 * Event logs for: buy from shop, sell to shop, add to auction, remove from auction, buy from auction, change buy or sell price.
 #### Development:
 * Demo: https://alexaltrex.github.io/NFT-Shop
+* Hardhat project: [NFT-Shop-Hardhat](https://github.com/Alexaltrex/NFT-Shop-Hardhat)
 * Front-end: React
 * Smart-contract: Solidity
 * Interaction between Front-end and Blockchain: ethers.js
