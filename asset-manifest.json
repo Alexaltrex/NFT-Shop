@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/NFT-Shop/static/css/main.817302e5.css",
-    "main.js": "/NFT-Shop/static/js/main.e395db54.js",
+    "main.css": "/NFT-Shop/static/css/main.68977fef.css",
+    "main.js": "/NFT-Shop/static/js/main.47a550dd.js",
     "static/js/787.c4e7f8f9.chunk.js": "/NFT-Shop/static/js/787.c4e7f8f9.chunk.js",
     "index.html": "/NFT-Shop/index.html",
-    "main.817302e5.css.map": "/NFT-Shop/static/css/main.817302e5.css.map",
-    "main.e395db54.js.map": "/NFT-Shop/static/js/main.e395db54.js.map",
+    "main.68977fef.css.map": "/NFT-Shop/static/css/main.68977fef.css.map",
+    "main.47a550dd.js.map": "/NFT-Shop/static/js/main.47a550dd.js.map",
     "787.c4e7f8f9.chunk.js.map": "/NFT-Shop/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.817302e5.css",
-    "static/js/main.e395db54.js"
+    "static/css/main.68977fef.css",
+    "static/js/main.47a550dd.js"
   ]
 }
